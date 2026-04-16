@@ -1,0 +1,56 @@
+.navbar{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 70px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 1rem;
+}
+.navbar-left{
+    
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+.navbar-left .logo{
+    color: #2D9CD8;
+    font-size: 2.1rem;
+    
+}
+
+.title-patient{
+    
+font-family: cursive;
+font-size: 42px;
+color: #333;
+
+
+}
+
+.navbar-center{
+    
+    flex: 1;
+    text-align: center;
+    font-size: 2rem;
+    font-family: cursive;
+   
+}
+.navbar-center h2 {
+  padding-right: 200px; /* Adds space inside h2, pushing text right */
+  color: #333;
+}
+
+
+
+.navbar-right img{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    
+}
